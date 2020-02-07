@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Flexbox</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload" >
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Ing. Sistemas Computacionales</strong><span>803</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="landing.html">Tipográfias</a></li>
+							<li><a href="flexbox.html">Flexbox</a></li>
+							<li><a href="elements.html">Unidades Relativas</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Flexbox</h1>
+									</header>
+									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+									<p><font size="5"> El Módulo de Caja Flexible, comúnmente llamado flexbox, fue diseñado como un modelo unidimensional de layout, y como un método que pueda ayudar a distribuir el espacio entre los ítems de una interfaz y mejorar las capacidades de alineación.</p>
+										<p>Lo que caracteriza un diseño flexible es su habilidad para alterar el ancho y alto de sus elementos para ajustarse lo mejor posible al espacio disponible en cualquier dispositivo. Un contenedor flexible expande sus elementos para rellenar el espacio libre, o los comprime para evitar que rebasen el área prevista.</p>
+									<h2>Partes del flexbox</h2>
+									<img src="images/flex.png"  alt="partes del flexbox">
+									<ul>
+										<li> <strong> Contenedor:</strong> Un área del documento que contiene un flexbox es llamada contenedor flex, que tendrá en su interior cada uno de los ítems flexibles y adaptables.
+											<!--<p>Para crear un contenedor flex, establecemos la propiedad del área del contenedor display como flex o inline-flex.</p>
+											<img src="images/con1.png"  alt="contenedor del flexbox">-->
+										</li>
+											<br>
+											<ul>										
+										    	<li><strong>Eje principal:</strong> Los contenedores flexibles tendrán una orientación principal específica. Por defecto, es en horizontal (fila).<p> Está definido por flex-direction, que posee cuatro posibles valores:
+										    		<ul>
+										    			<li> row</li>
+										    			<li>row-reverse</li>
+										    			<li>column</li>
+										    			<li>column-reverse</li>
+										    		</ul>
+
+										    		<p>Si elegimos row o row-reverse, el eje principal correrá a lo largo de la fila según la dirección de la línea.</p>
+										    		<img src="images/dic1.png"  alt="dirección row ">
+										    		<p>Al elegir column o column-reverse el eje principal correrá desde el borde superior de la página hasta el final — según la dirección del bloque.</p>
+										    		<img src="images/dic2.png"  alt="dirección row ">
+										    		
+										    	</p></li>
+												<li><strong>Eje secundario:</strong> De la misma forma, los contenedores flexibles tendrán una orientación secundaria, perpendicular a la principal. Si la principal es en horizontal, la secundaria será en vertical, y viceversa<p>Si el flex-direction (del eje principal) es row o row-reverse el eje cruzado irá por las columnas.</p>
+													<img src="images/dic3.png"  alt="dirección row ">
+										    		
+													<p>Si el eje principal es column o column-reverse entonces el eje cruzado corre a lo largo de las filas.</p>
+										    		<img src="images/dic4.png"  alt="dirección row ">
+										    		
+
+
+												</li>
+											</ul>
+										<li><strong>Ítem:</strong> Cada uno de los elemetos flexibles que tendrá el contenedor en su interior.</li>
+										
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							
+							<ul class="copyright">
+								<li>&copy; ITSM</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

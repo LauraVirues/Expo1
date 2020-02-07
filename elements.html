@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Exposición</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Ing. Sistemas Computacionales</strong><span>803</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="landing.html">Tipográfias</a></li>
+							<li><a href="generic.html">Flexbox</a></li>
+							<li><a href="elements.html">Unidades Relativas</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Unidades Relativas</h1>
+									</header>
+
+									<!-- Content -->
+										<h2 id="content">¿Qué es?</h2>
+										<p>La unidades relativas, no están completamente definidas, ya que su valor siempre está referenciado respecto a otro valor. A pesar de su aparente dificultad, son las más utilizadas en el diseño web por la flexibilidad con la que se adaptan a los diferentes medios.</p>
+
+										<p>A continuación se muestran las tres unidades de medida relativas definidas por CSS y la referencia que toma cada una para determinar su valor real:</p>
+
+											<ul>
+												<li><code>em</code>, (no confundir con la etiqueta <"em"> de HTML) relativa respecto del tamaño de letra del elemento.</li>
+												<li><code>ex</code>, relativa respecto de la altura de la letra <code>x</code> (<i>"equis minúscula"</i>) del tipo y tamaño de letra del elemento.</li>
+												<li><code>px</code>, (píxel) relativa respecto de la resolución de la pantalla del dispositivo en el que se visualiza la página HTML.</li>
+											</ul>
+
+											<p>La unidad <code>em</code> hace referencia al tamaño en puntos de la letra que se está utilizando. Si se utiliza una tipografía de 12 puntos, <code>1em</code> equivale a <code>12 puntos.</code> El valor de <code>1ex</code> se puede aproximar por <code>0.5 em.</code></p>
+
+											<p>Si se considera el siguiente ejemplo: </p>
+
+												<p><code>p { margin: 1em; }</code></p>
+
+											<p>La unidad de medida <code>em</code> siempre hace referencia al tamaño de letra del elemento. Por otra parte, todos los navegadores muestran por defecto el texto de los párrafos con un tamaño de letra de 16 píxel. Por tanto, en este caso el margen de <code>1em</code> equivale a un margen de anchura <code>16px.</code></p>
+
+											<p>A continuación se modifica el ejemplo anterior para cambiar el tamaño de letra de los párrafos:</p>
+
+											<p><code>p { font-size: 32px; margin: 1em; }</code></p>
+
+											<p>El funcionamiento de la unidad <code>ex</code> es idéntico a <code>em</code>, salvo que en este caso, la referencia es la altura de la letra <code>x minúscula,</code> por lo que su valor es aproximadamente la mitad que el de la unidad <code>em.</code></p>
+
+											<p>Por último, las medidas indicadas en píxel también se consideran relativas, ya que el aspecto de los elementos dependerá de la resolución del dispositivo en el que se visualiza la página HTML.</p>
+
+											<p>La gran ventaja de las unidades relativas es que siempre mantienen las proporciones del diseño de la página.</p>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="https://twitter.com/" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; ITSM</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
